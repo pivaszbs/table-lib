@@ -1,0 +1,40 @@
+.resize-handle
+{
+    display: none;
+
+    height: 100%;
+}
+
+.resize-handle--active .resize-handle
+{
+    display: block;
+}
+
+.resizable-cell:hover .resize-handle
+{
+    display: block;
+}
+
+.resizable-cell
+{
+    box-sizing: border-box;
+    width: var(--cell-width);
+}
+
+.service-table-cell
+{
+    width: 1%;
+}
+
+.header-cell
+{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+    padding: 0;
+
+    vertical-align: top;
+
+    background-color: var(--contentSelectColor);
+}

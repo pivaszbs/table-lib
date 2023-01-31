@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "target": "es6",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "allowSyntheticDefaultImports": true,
+      "useUnknownInCatchVariables": false,
+      "skipLibCheck": true,
+      "jsx": "react",
+      "baseUrl": "./", 
+      "lib": [
+        "DOM",
+        "es2020"
+      ],
+      "sourceMap": true,
+      "declaration": true
+    },
+    "include": [
+      "src/**/*",
+      "src/*",
+    ]
+  }
